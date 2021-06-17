@@ -106,8 +106,8 @@ a {
   font-size: 3.5rem;
 }
 
-/* Janken */
-.janken {
+/* RPS App */
+.rockApp {
   display: flex;
   justify-content: center;
   align-items: center;
