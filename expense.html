@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+  <link rel="stylesheet" href="expense.css">
+  <title>Expense Tracker</title>
+</head>
+<body>
+  <button class="homeBtn"><a href="index.html">Home</a></button>
+  <div id="expenseBody">
+    <h1>Expense Tracker</h1>
+    <h6>Add new expense:</h6>
+    <form>
+  
+
+     <label id="currencyLabel"  for="payment">Type:</label> <select class="userInput" name="payment"  id="payment">
+       <option value="card">Card</option>
+       <option value="cash">Cash</option>
+       <option value="crypto">Crypto</option>
+       <option value="other">Other</option>
+     </select> 
+     
+     <label id="itemLabel"  for="name">Name:</label>  <input  id="name" type="text" name="name" id="name"> <br>
+
+     <label id="dateLabel"  for="date">Date:</label> <input  id="date" type="date" name="date" id="date"> 
+     
+     <label id="costLabel"  for="amount">Amount:</label> <input   type="number" name="amount" id="amount"> <br>
+
+    <button  id="submitBtn" type="button">Add a new expense</button>
+    
+    </form>
+
+
+    <table>
+      <thead id="tableHead">
+        <tr>
+          <th>Type</th>
+          <th>Name</th>
+          <th>Date</th>
+          <th>Amount</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+     <tbody id="tBody">
+     
+     </tbody>
+    </table>
+ 
+  
+
+
+  <script src="expense.js"></script>
+</body>
+</html>
