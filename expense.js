@@ -95,7 +95,8 @@ let newRow = function(theCurrency, theItem, theLocation, theDate, theCost) {
 
 document.querySelector('#submitBtn').addEventListener('click', (e) => {
 
-  newRow(currency.value, item.value, theDay.value, cost.value);
+  newRow(currency.value, itemLocation.value, item.value, theDay.value, cost.value);
+
 
 
 
