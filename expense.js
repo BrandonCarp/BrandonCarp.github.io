@@ -59,10 +59,6 @@ let newRow = function(theCurrency, theItem, theDate, theCost) {
 
 
 
-// currency.value = '';
-item.value = '';
-theDay.value = '';
-cost.value = '';
 }
 
 
@@ -70,7 +66,10 @@ cost.value = '';
 document.querySelector('#submitBtn').addEventListener('click', (e) => {
 
   newRow(currency.value, item.value, theDay.value, cost.value);
-
+  currency.value = '';
+  item.value = '';
+  theDay.value = '';
+  cost.value = '';
 e.preventDefault();
 });
 
