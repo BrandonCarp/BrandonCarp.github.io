@@ -59,7 +59,7 @@ let newRow = function(theCurrency, theItem, theDate, theCost) {
 
 
 
-currency.value = '';
+// currency.value = '';
 item.value = '';
 theDay.value = '';
 cost.value = '';
