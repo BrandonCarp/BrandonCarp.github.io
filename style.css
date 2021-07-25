@@ -4,200 +4,62 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Roboto", sans-serif;
-  background-color: rgb(22, 21, 21);
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #1a1a1a;
+  line-height: 1.3;
+  color: #fff;
 }
 
 a {
   text-decoration: none;
 }
-#indexHead {
-  /* background: url(/img/tokyonight.jpg) no-repeat center center/cover; */
-  display: table;
-  width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/tokyonight.jpg);
-  background-position: center top;
-  color: #fff;
-  height: 30vh;
-  /* 
-  height: 40vh;
-  width: 100vw; */
-}
-#indexHead h1 {
+
+/* Head */
+
+#main-head {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
-  font-size: 3rem;
-  color: #fff;
-}
-
-.clockApp {
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-direction: column;
-  background-color: rgb(22, 21, 21);
-  height: 30vh;
-  color: #fff;
-  border-bottom: 5px solid #fff;
+  margin-top: 3rem;
 }
-.clockApp h2 {
-  font-size: 3rem;
+#main-logo {
+  width: 200px;
+  padding-bottom: 0.5rem;
 }
 
-.clockBtn {
-  margin-top: 1rem;
-  border: none;
-  background: none;
-  padding: 1rem;
-  transition: all 0.2s ease-in-out;
+#myEmail {
+  color: rgba(255, 255, 255, 0.603);
 }
 
-.clockBtn:hover {
-  transform: scale(1.3);
-}
-
-.clockBtn a {
-  display: flex;
-  flex-direction: column;
-  font-size: 1.5rem;
-  color: #fff;
-}
-
-/* Clock Page */
-
-.clock {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-  width: 100vw;
-  color: #fff;
-}
-
-.clock button {
+#myEmail {
   font-size: 1.3rem;
+}
+
+.fa-envelope {
+  padding-right: 0.3rem;
+  color: #fff;
+}
+
+.links {
+  display: flex;
   margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  border: none;
-  cursor: pointer;
 }
 
-.fa-clock {
+.links a {
   color: #fff;
-  padding-top: 0.5rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
 }
 
-.clock button:hover {
-  opacity: 0.8;
+.links p {
+  color: rgba(255, 255, 255, 0.603);
 }
 
-.clock h1 {
-  font-size: 3rem;
-}
-
-.timeOne {
-  font-size: 5rem;
-}
-
-.timeTwo {
-  font-size: 3.5rem;
-}
-
-/* RPS App */
-.rockApp {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 250px;
-  width: 100vw;
-  color: #fff;
-}
-
-.rps {
-  background: none;
-  border: none;
-  margin-top: 1rem;
-  transition: all 0.2s ease-in-out;
-}
-
-.rps:hover {
-  transform: scale(1.3);
-  border: none;
-}
-
-.fa-hand-rock {
-  background-color: rgb(22, 21, 21);
-  border: none;
-  color: #fff;
-}
-
-.janken h2 {
-  font-family: "Press Start 2P", cursive;
-  color: #fff;
-}
-
-.expenseTracker {
-  border-top: 5px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 300px;
-}
-
-.expenseTracker h2 {
-  font-size: 2rem;
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.expenseTracker button {
-  border: none;
-  background: rgb(22, 21, 21);
-  transition: all 0.2s ease-in-out;
-}
-
-.expenseTracker button a {
-  color: #fff;
-}
-
-.expenseTracker button:hover {
-  transform: scale(1.3);
-}
-
-
-/* Calculator */
-
-.calc {
-  border-top: 5px solid white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 300px;
-}
-
-.calc h2 {
-  font-size: 2rem;
-  color: #fff;
-  margin-bottom: 0.5rem;
-}
-
-.calc button {
-  border: none;
-  background: rgb(22, 21, 21);
-  transition: all 0.2s ease-in-out;
-}
-
-.calc button a {
-  color: #fff;
-}
-
-.calc button:hover {
-  transform: scale(1.3);
+#borderHead {
+  width: 60vw;
+  height: 2px;
+  background-color: #464646;
 }
