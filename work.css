@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #1a1a1a;
+  line-height: 1.3;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Portfolio Page */
+
+/* Head */
+
+#main-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+#main-logo {
+  width: 200px;
+  padding-bottom: 0.5rem;
+}
+
+#myEmail {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+#myEmail {
+  font-size: 1rem;
+}
+
+.fa-envelope {
+  padding-right: 0.3rem;
+  color: #fff;
+}
+
+.links {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.links a {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.7rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.links a:hover {
+  color: rgb(159, 209, 243);
+}
+
+.links p {
+  color: rgba(255, 255, 255, 0.603);
+}
+
+#borderHead {
+  width: 60vw;
+  height: 2px;
+  background-color: #464646;
+}
+
+#myWork {
+  color: rgb(90, 179, 238);
+}
+
+#workHead {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+/* Clock App */
+
+#portfolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+.textArea {
+  width: 300px;
+}
+
+.textArea h3 {
+  font-size: 1.5rem;
+}
+
+.textArea p {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.603);
+}
+
+#clockApp {
+  width: 800px;
+  padding-right: 3rem;
+}
+
+.workBtn {
+  position: absolute;
+  margin-top: 1rem;
+  padding: 0.5rem 1.3rem;
+  background-color: rgb(90, 179, 238);
+  color: #fff;
+}
+
+.workBtn:hover {
+  background: rgb(41, 156, 233);
+}
+
+/* Expense Tracker */
+#expenseTracker {
+  width: 800px;
+  padding-right: 3rem;
+}
+
+/* RPS Game */
+
+#rps {
+  height: 600px;
+  padding-right: 3rem;
+}
+
+/* C8 */
+#c8 {
+  height: 500px;
+  padding-right: 3rem;
+}
+
+/* Calculator */
+
+#calc {
+  height: 500px;
+  padding-right: 3rem;
+}
+
+/* Footer */
+footer {
+  bottom: 0;
+  background-color: #3a3939;
+  width: 100vw;
+  height: 40px;
+}
+
+footer ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+  margin-left: 300px;
+}
+
+footer ul li {
+  font-size: 1.3rem;
+  padding-left: 3rem;
+}
+
+footer ul li a:hover {
+  color: rgb(159, 209, 243);
+}
+
+footer ul li a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.current {
+  color: rgb(90, 179, 238);
+}

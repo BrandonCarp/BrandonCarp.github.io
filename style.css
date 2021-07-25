@@ -14,52 +14,88 @@ a {
   text-decoration: none;
 }
 
-/* Head */
-
-#main-head {
+#container {
+  margin-top: 13%;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  margin-top: 3rem;
 }
+
 #main-logo {
-  width: 200px;
-  padding-bottom: 0.5rem;
+  width: 250px;
+  margin-right: 0.5rem;
 }
 
-#myEmail {
-  color: rgba(255, 255, 255, 0.603);
+#main-body {
+  margin-top: 2rem;
 }
 
-#myEmail {
-  font-size: 1.3rem;
+#main-body h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-left: 17px;
 }
 
-.fa-envelope {
-  padding-right: 0.3rem;
+#name {
+  color: rgb(90, 179, 238);
+}
+
+#main-body h3 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#main-body a {
+  position: absolute;
+  padding: 0.8rem 1.3rem;
+  background-color: transparent;
+  border: 2px solid rgb(90, 179, 238);
+  font-size: 1rem;
   color: #fff;
-}
-
-.links {
-  display: flex;
+  margin-left: 175px;
   margin-top: 1rem;
 }
 
-.links a {
+#main-body a:hover {
+  background: rgb(41, 156, 233);
+}
+
+.right-arrow {
   color: #fff;
-  font-weight: bold;
-  font-size: 1.5rem;
-  padding: 0 1rem;
-  margin-bottom: 2rem;
 }
 
-.links p {
-  color: rgba(255, 255, 255, 0.603);
+/* Footer */
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #3a3939;
+  width: 100vw;
+  height: 40px;
 }
 
-#borderHead {
-  width: 60vw;
-  height: 2px;
-  background-color: #464646;
+footer ul {
+  display: flex;
+  height: 100%;
+  list-style: none;
+  align-items: center;
+  margin-left: 300px;
+}
+
+footer ul li {
+  font-size: 1.3rem;
+  padding-left: 3rem;
+}
+
+footer ul li a:hover {
+  color: rgb(159, 209, 243);
+}
+
+footer ul li a {
+  color: #fff;
+  font-weight: 400;
+}
+
+.current {
+  color: rgb(90, 179, 238);
 }
