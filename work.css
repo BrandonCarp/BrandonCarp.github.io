@@ -185,3 +185,8 @@ footer ul li a {
 .current {
   color: rgb(90, 179, 238);
 }
+
+#snakePic {
+  width: 800px;
+  margin-right: 4rem;
+}

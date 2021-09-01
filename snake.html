@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="snake.css">
+  <title>Snake Game</title>
+</head>
+<body>
+<h1 id="title">Brandon's Vanilla JS Snake Game</h1>
+<button class='homeBtn'><a href="index.html">Home</a></button>
+  <div class="container">
+    
+    <div class="startScreen">
+      <h1>Super Fun Snake Game</h1>
+      <button id="startBtn">Start Game!</button>
+    </div>
+
+    <div class="loseScreen hidden">
+      <h1>You Lose!</h1>
+      <button id="newGameBtn">Play Again?</button>
+    </div>
+
+    <canvas id="gameCanvas"width='500px' height='400px'></canvas>
+    <section id="sideBar">
+      <div class="score">
+        <h2>Mice Eaten!</h2>
+        <p class="playerScore"></p>
+      </div>
+      <div class="directions">
+        <h2>The Rules!</h3>
+        <h3>How to play:</h3>
+        <ol>
+          <li>Use The Arrow Keys To Move The Snake</li>
+          <li>Eat The "Mice" To Become The Biggest Snake You Can</li>
+          <h4>What To Avoid</h6>
+          <li>Avoid eating your tail!</li>
+          <li>Avoid Hitting The Walls!</li>
+        </ol>
+      </div>
+    </section>
+
+  </div>
+
+
+ <script src="snake.js"></script>
+
+</body>
+</html>
